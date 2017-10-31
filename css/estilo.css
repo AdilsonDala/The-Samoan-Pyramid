@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+}
+
+.centro1 {
+	width: 100%;
+	height: 531px;
+	background-color: #3754a0;
+	margin-bottom: 10%;
+}
+.centro2 {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10%;
+}
+
+.centro {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.coluna1 {
+	float: left;
+	width: 50%;
+
+}
+
+.livro {
+	left: 0;
+	width: 50%;
+	position: absolute;
+	bottom: -79px;
+
+}
+
+.coluna2 {
+	float: right;
+	width: 50%;
+}
+
+.news {
+	right: 273px;
+	width: 29%;
+	height: 194px;
+	position: absolute;
+	bottom: 291px;
+}
+
+.img1{
+	width: 581px;
+	height: 544px;
+	float: right;
+}
+
+.pp {
+	margin-top: 11%;
+	margin-bottom: 10%; 
+	color: #41bf69;
+}
+.h11 {
+	margin-top: 8%;
+	margin-bottom: 8%;
+	color: white;
+}
+
+.sp {
+	margin-top: 8%;
+	margin-bottom: 8%;
+	color: white;
+	font-size: 20px;
+}
+
+.dterceirop {
+	position: relative;
+	top: 130%;
+}
+
+.tp {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 23px;
+}
+
+.email {
+	margin-top: 2%; 
+	border: 1px solid #CCCCCE;
+	border-radius: 2px;
+	color: #CCCCCE;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 5px 15px;
+	width: 325px;
+}
+
+.botao01{
+	margin-top: 3%; 
+	border: 0 solid #CCCCCE;
+	border-radius: 2px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 15px;
+	width: 180px;
+	background-color: #41bf69;
+}
+
+hr {
+	width: 35%;
+	position: relative;
+	left: 435px;
+}
+
+.frases {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 140%;
+}
+
+.paragfrases {
+	margin-bottom: 10%;
+	font-size: 25px;
+}
+
+.divhr {
+	position: relative;
+	top: 139%;
+}
