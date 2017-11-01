@@ -3,8 +3,21 @@
 	padding: 0;
 }
 
+
+@font-face {
+	font-family: "Lora";
+	src:url(../font/Lora/Lora-Italic.ttf); 
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src:url(../font/Montserrat/Montserrat-ExtraLight.ttf); 
+}
+
 body {
 	position: relative;
+	font-family: "Lora";
+	
 }
 
 .centro1 {
@@ -27,7 +40,6 @@ body {
 .coluna1 {
 	float: left;
 	width: 50%;
-
 }
 
 .livro {
@@ -49,6 +61,7 @@ body {
 	height: 194px;
 	position: absolute;
 	bottom: 291px;
+	font-family: "Montserrat", "Sans serif";
 }
 
 .img1{
@@ -72,7 +85,7 @@ body {
 	margin-top: 8%;
 	margin-bottom: 8%;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .dterceirop {
@@ -113,6 +126,7 @@ body {
 	padding: 5px 15px;
 	width: 180px;
 	background-color: #41bf69;
+	cursor:pointer;
 }
 
 hr {
@@ -136,4 +150,240 @@ hr {
 .divhr {
 	position: relative;
 	top: 139%;
+}
+
+.imglink {
+	width: 50px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.img {
+	position: relative;
+	top: 150%;
+	background-image: url("../img/Captura de ecrã.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	clear: both;
+}
+
+.centralizar {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.centrocompra {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.comprar {
+	position: relative;
+	top: 120%;
+	font-family: "Montserrat";
+}
+
+.h1compra {
+	margin-top: 50%;
+	margin-bottom: 5%;
+	font-size: 40px;
+	text-align: center;
+}
+
+.botao02{
+	margin-top: 5%; 
+	border: 0 solid #CCCCCE;
+	border-radius: 2px;
+	color: #c9e6cc;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #41bf69;
+	float: left;
+	position: relative;
+	left: 200px;
+	cursor:pointer;
+}
+
+.newslestter {
+	position: relative;
+	top: 125%;
+	background-image: url("../img/grren-blue-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1384px;
+	height: 765px;
+	clear: both;
+	font-family: "Montserrat";
+}
+
+.centronewsl {
+	position: relative;
+	top: 30%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.h3nl {
+	font-size: 50px;
+	margin-bottom: 5%;
+}
+
+.pnl {
+	font-size: 18px;
+	color: white;
+}
+
+.about {
+	position: relative;
+	top: 125%;
+	width: 100%;
+	height: 100%;
+	font-family: "Montserrat";
+}
+
+.coluna12 {
+	float: left;
+	width: 50%;
+	background-image: url("../img/topography-bg-light.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.h4cl12 {
+	margin-top: 10%;
+	text-align: center;
+}
+
+.imgcl12 {
+	margin-top: 8%; 
+	position: relative;
+	left: 270px;
+}
+
+.pcl12 {
+	margin-top: 3%;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 13%;
+}
+
+.coluna21 {
+	float: right;
+	width: 50%;
+	height: 485px;
+	background-image: url("../img/topography-bg-light-blue.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.h4cl21{
+	margin-top: 10%;
+	text-align: center;
+	color: #41bf69;
+}
+
+.pcl21{
+	margin-top: 13%;
+	margin-bottom: 13%;
+}
+
+.p1cl21{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 17%;
+	color: white;
+	font-size: 20px;
+}
+
+li {
+	padding: 0 10px;
+}
+
+.footer {
+	position: relative;
+	top: 116%;
+	width: 100%;
+	background-image: url("../img/topography-bg-light-green.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 55px 0;
+	text-align: center;
+	font-family: "Montserrat";
+}
+
+a{
+	text-decoration: none;
+} 
+.paragfooter {
+	color: white;
+	text-align: center;	
+	margin-bottom: 3%;
+}
+
+.botao03{
+	margin-top: -25px; 
+	border: 0 solid #CCCCCE;
+	border-radius: 2px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #41bf69;
+	float: left;
+	position: relative;
+	left: 136px;
+	cursor:pointer;
+}
+
+
+.body{
+	color: #adb5ba;
+	font-family: "Montserrat";
+}
+
+.ppp {
+	position: relative;
+	top: 50px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.h1ppp {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: 
+}
+
+.paragrafos {
+	font-size: 20px;
+	margin: 3% 0;
+}
+
+.a {
+	color: #41bf69;
+}
+
+.a:hover {
+	color: black;
 }
